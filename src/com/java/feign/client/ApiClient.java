@@ -19,7 +19,7 @@ public interface ApiClient {
             @RequestHeader(value = "password", required = false) String password,
             @RequestHeader(value = "token", required = false) String token);
 
-    @GetMapping(path = "/object/{objectUID}/{fields}-{base64}-{url}")
+    @GetMapping(path = "/object/{objectUID}")
     Object getObject(
             @RequestHeader(value = "integrationToken", required = true) String integrationToken,
             @RequestHeader(value = "login", required = false) String login,
