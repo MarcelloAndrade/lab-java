@@ -1,3 +1,7 @@
 .idea
 out
 learn-java.iml
+/bin/
+.classpath
+.project
+.settings
