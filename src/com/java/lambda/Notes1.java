@@ -1,11 +1,11 @@
-package com.java.comparator;
+package com.java.lambda;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class ComparatorString {
+public class Notes1 {
 	
 	public static void main(String[] args) {
 		List<String> list = Arrays.asList("Pedro", "Maria", "Cladia", "Paulo", "Flay");
